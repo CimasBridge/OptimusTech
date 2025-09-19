@@ -1,0 +1,59 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.125rem;
+    margin: 1rem 7rem;
+    align-items: center;
+
+}
+
+.logo {
+    color: var(--cor-logo);
+    margin-left: 0.4em;
+}
+
+.container {
+    display: flex; 
+    align-items: center;
+}
+
+.container__imagem {
+    width: 83%;
+}
+
+
+.opcoes__lista {
+    margin: auto auto;
+    display: flex;
+    gap: 2rem;
+}
+
+    .opcoes__link {
+        color: var(--gray-500);
+    }
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 7.42rem;
+}
+
+
+.cabecalho__user-botao{
+    padding: 0.625rem 1.125rem;
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--gray-500);
+}
+
+.botao-vermelho {
+    background-color: var(--vermelho-principal);
+    color: var(--fundo-principal);
+}
+
+.cabecalho__user {
+    display: flex;
+    gap: 0.75rem; 
+}
+

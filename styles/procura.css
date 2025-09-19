@@ -1,0 +1,35 @@
+.procura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.procura__imagem {
+    padding: 4rem 7rem;
+}
+
+
+.procura__vaga {
+    background-color: var(--vermelho-secundario);
+    color: var(--vermelho-principal);
+    font-size: 14px;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.procura__titulo {
+    padding: 1rem 0 1.25rem 0;
+    font-weight: 600;
+    color: var(--gray-900);
+    font-size: 36px;
+    letter-spacing: -2%;
+}
+
+.procura__texto {
+    font-weight: 400;
+    font-size: 20px;
+}
+

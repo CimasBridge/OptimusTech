@@ -1,0 +1,27 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.sobre__resumo {
+    color: var(--vermelho-principal);
+    font-weight: 600;
+}
+
+.sobre__titulo {
+    font-weight: 600;
+    color: var(--gray-900);
+    font-size: 48px;
+    letter-spacing: -2%;
+    margin: 1.5rem 0;
+}
+
+.sobre__texto {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 30vw;
+    line-height: 30px;
+}
