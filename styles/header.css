@@ -57,3 +57,14 @@
     gap: 0.75rem; 
 }
 
+.opcoes__link{
+    padding: 30% 0;
+}
+
+.opcoes__item:hover {
+    transform: translateY(-6px);
+}
+
+.opcoes__item {
+    transition: 0.5s;
+}
